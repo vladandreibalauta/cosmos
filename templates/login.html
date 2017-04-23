@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sign Up/ Login</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Ubuntu:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="../vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/jquery-3.2.1.js"></script>
+    <script src="../js/login.js"></script>
+</head>
+
+<body>
+<div class="wrapper">
+    <div class="background">
+        <div class="left">
+            <h2 class="back-header">Dont have an account yet?</h2>
+            <p class="back-p">Well doggonit you should sign up today!</p>
+            <button class="back-btn signup-but">SIGN UP</button>
+        </div>
+        <div class="right">
+            <h2 class="back-header">Do you already have an account?</h2>
+            <p class="back-p">Well doggonit let's get you logged in!</p>
+            <button class="back-btn login-but">LOGIN</button>
+        </div>
+    </div>
+    <div class="form-container">
+        <div class="sign-up">
+            <h2 class="form-header">SIGN UP</h2>
+            <input type="text" id="firstname" placeholder="First Name"><i class="fa fa-user"></i></input>
+            <input type="text" id="lastname" placeholder="Last Name"><i class="fa fa-user"></i></input>
+            <input type="text" id="email" placeholder="Email"><i class="fa fa-envelope-o"></i></input>
+            <input type="password" id="pass" placeholder="Password"><i class="fa fa-lock"></i></input>
+            <input type="password" id="retype" placeholder="Retype Password"><i class="fa fa-lock"></i></input>
+            <button class="form-btn">SIGN UP</button>
+
+            <div class="or">OR</div>
+            <div class="social">
+                <button class="social-signin facebook">Log in with facebook</button>
+                <button class="social-signin google">Log in with Google+</button>
+            </div>
+        </div>
+        <div class="login hide">
+            <h2 class="form-header">LOGIN</h2>
+            <input type="text" id="email" placeholder="Email"><i class="fa fa-envelope-o"></i></input>
+            <input type="password" id="pass" placeholder="Password"><i class="fa fa-lock"></i></input>
+            <button class="form-btn">LOGIN</button>
+            <a class="forgot" href="#">Forgot password</a>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

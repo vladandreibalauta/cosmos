@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /*background: url(http://eskipaper.com/images/mountain-landscape-2.jpg);*/
+    background-image: url(../img/galaxy-wallpaper-36.jpg);
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    font-family: 'PT Sans';
+}
+button:hover{
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}
+.wrapper{
+    background: rgba(0,0,0,0.6);
+    position: relative;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.left,
+.right{
+    width: 50%;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right
+}
+.back-header,
+.back-p{
+    margin: 20px;
+    color: #fafafa;
+    letter-spacing: 1px;
+
+}
+.back-header{
+    font-family:'Ubuntu';
+    font-size: 30px;
+    font-weight: 500;
+}
+.back-p{
+    font-family: 'PT Sans';
+    letter-spacing: 1px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 60px;
+}
+.background button{
+    position: absolute;
+    left: 0;
+    bottom: 60px;
+}
+.background .left button{
+    left: 20px;
+}
+.background .right button{
+    left: 420px;
+}
+.form-container{
+    position: absolute;
+    width: 375px;
+    height: 620px;
+    background-color: white;
+    top: -75px;
+    left: 10px;
+    box-shadow: 9px 13px 16px 0px rgba(0,0,0,0.75);
+}
+
+.login{
+    margin: 40px;
+    margin-top: 200px;
+}
+.sign-up{
+    margin: 40px;
+}
+.back-btn{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 3px;
+    background: transparent;
+    border: 1px solid white;
+    color: #fafafa;
+    transition: .3s all;
+}
+.back-btn:hover{
+    background-color: #145977;
+    border: 1px solid #145977;
+}
+.form-btn{
+    display: block;
+    margin-top: 30px;
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    border: 0;
+    border-radius: 3px;
+    background-color: #130422;
+    color: #fafafa;
+    transition: .4s all;
+}
+.sign-up button:hover,
+.login button:hover{
+    background-color: #C53716;
+}
+.form-header{
+    font-size: 32px;
+    color: #130422;
+}
+.form-container input{
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    border: 0;
+    border-bottom: 1px solid #888;
+}
+input[type="text"],
+input[type="email"]{
+    color: #555;
+}
+.form-container i{
+    margin-left: 10px;
+    margin-bottom: -5px;
+    color: #888;
+}
+.login button,
+.forgot
+{
+    display: inline-block;
+}
+.forgot{
+    margin-left: 15px;
+    text-decoration: none;
+    color: black;
+}
+.forgot:hover{
+    color: #FC7D5F;
+    text-decoration: underline;
+}
+
+/*other*/
+/*@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500);*/
+*:focus {
+    outline: none;
+}
+
+.or {
+    position: absolute;
+    top: 430px;
+    left: 170px;
+    width: 40px;
+    height: 40px;
+    background: #DDD;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    line-height: 40px;
+    text-align: center;
+}
+
+button.social-signin {
+    margin-bottom: 20px;
+    width: 220px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+
+button.social-signin:hover,
+button.social-signin:focus {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+}
+
+button.social-signin:active {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.2s ease;
+}
+
+button.social-signin.facebook {
+    background: #32508E;
+}
+
+button.social-signin.google {
+    background: #DD4B39;
+}
+
+.social{
+    position: absolute;
+    top: 500px;
+}
