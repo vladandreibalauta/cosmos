@@ -1,5 +1,5 @@
 {
-  "name": "BridgePartners",
+  "name": "bridgepartners",
   "title": "Bridge Partners",
   "description": "Presentation website for Bridge Partners",
   "version": "1.0.0-SNAPSHOT",
@@ -8,26 +8,23 @@
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
-    "font-awesome": "^4.6.3",
-    "jquery": ">=3.4.0",
-    "clean-webpack-plugin": "^0.1.19",
     "eslint": "^5.6.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.12.0",
+    "font-awesome": "^4.6.3",
     "html-webpack-plugin": "^3.2.0",
+    "copy-webpack-plugin": "^5.0.4",
+    "jquery": ">=3.4.0",
     "uglifyjs-webpack-plugin": "^2.0.1",
     "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.9",
-    "webpack-merge": "^4.1.2",
-    "webpack-polyfill-injector": "^2.0.2"
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.1.9"
   },
   "scripts": {
-    "build:dev": "webpack -p --progress --config=webpack.dev.config.js --mode development",
-    "build:prod": "webpack -p --progress --config=webpack.prod.config.js --mode production",
+    "build:dev": "webpack -p --progress --config=webpack.config.js --mode development",
     "build": "npm run build:dev",
     "lint:src": "eslint ./js",
     "start": "npm run webpack:dev-server",
-    "webpack:dev-server": "webpack-dev-server --open --port=9090 --config=webpack.dev.config.js"
+    "webpack:dev-server": "webpack-dev-server --open --port=9090 --config=webpack.config.js"
   }
 }
