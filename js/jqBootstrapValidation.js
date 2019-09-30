@@ -8,7 +8,7 @@
  * http://ReactiveRaven.github.com/jqBootstrapValidation/
  */
 
-(function( $ ){
+export function jqBootstrapValidation( $ ){
 
 	var createdElements = [];
 
@@ -909,4 +909,4 @@
     $(":input").not("[type=image],[type=submit]").jqBootstrapValidation.apply(this,arguments);
   };
 
-})( jQuery );
+}
