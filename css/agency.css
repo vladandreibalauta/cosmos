@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    opacity: 0.8;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -216,6 +216,17 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 3px;
   }
 }
+@media (max-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 0 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+}
+
 @media (min-width: 768px) {
   .navbar-custom.affix {
     background-color: #130422;
@@ -226,7 +237,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/bridge/7-da.jpg');
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
