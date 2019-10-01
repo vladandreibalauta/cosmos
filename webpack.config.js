@@ -15,7 +15,8 @@ module.exports = {
           new CopyPlugin([
             { from: './css', to: 'css' },
             { from: './vendor', to: 'vendor'},
-            { from: './img', to: 'img'}
+            { from: './img', to: 'img'},
+            { from: './favicon.ico'}
           ])        
         ]
 };
