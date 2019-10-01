@@ -199,7 +199,7 @@ fieldset[disabled] .btn-xl.active {
 }
 @media (min-width: 768px) {
   .navbar-custom {
-    background-color: transparent;
+    opacity: 0.8;
     padding: 25px 0;
     -webkit-transition: padding 0.3s;
     -moz-transition: padding 0.3s;
@@ -830,6 +830,7 @@ body {
 .navbar-brand>img {
   height: 100%;
   padding: 15px;
+  padding-bottom: 30px;
   width: auto;
 }
 #anchor-logo{
@@ -843,7 +844,7 @@ body {
 #mainNav{
   bottom: auto;
   margin-bottom: 0px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   padding-top: 5px;
 }
 .intro-lead-in, .intro-heading {
